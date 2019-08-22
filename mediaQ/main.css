@@ -1,0 +1,45 @@
+body{
+
+}
+
+h1{
+   color: tomato; 
+}
+
+p{
+    color: magenta;
+}
+/* 
+    so the below code will run if the criteria for the min width being 1000px is set
+ */
+@media (min-width: 1000px){ 
+    body{
+        background-color: yellow;
+    }
+
+    h1{
+        font-size: 10vh;
+        background-color: aqua;
+    }
+
+    p{
+        font-size: 10vh;
+        background-color: orchid;
+    }
+}
+
+@media (min-height: 500px){
+    body{
+        background-color: yellow;
+    }
+
+    h1{
+        font-size: 10vh;
+        background-color: aqua;
+    }
+
+    p{
+        font-size: 10vh;
+        background-color: orchid;
+    }
+}

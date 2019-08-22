@@ -1,0 +1,31 @@
+//to connect your .scss file 
+//1.create the .scss file  (name it styles)
+//2.go to the bottom bar and click watch scss this creates two new file which will link it all together 
+
+
+
+$variableColour: red;
+
+$var1: blue;
+$var2: purple;
+
+
+body{
+    background-color: green($color: #000000);
+    //changes the backgrounbd colour to the variable we set it
+    background-color: $variableColour;
+    
+}
+
+//we can use something similar to functions which is called @mixins
+
+@mixin exampleFunction($var1, $var2) {
+    color: $var1;
+    background-color: $var2;
+}
+
+//so now you can reuse it
+
+h1{
+    background-color: $var2;
+}

@@ -1,0 +1,50 @@
+/* 
+inline style - e.g. if we dont want to use the same color again then this is not the one b
+
+
+internal style sheet - great for when you just have one page
+
+
+external style sheet - the best one because is scalable, future proof, 
+go into one file and change everything
+*/
+
+/* 
+vw / vh
+decreases font according to the height and width of the website
+*/
+p {
+    
+    font-size: 100px; 
+}
+
+h1{
+    font-size: 100px; 
+}
+ 
+
+
+/* you can specify what you want using the # feature */
+ #firstID {
+     font-size: 100px;
+     color: orange;
+     text-decoration: underline;
+     padding-left: 0vw;
+ }
+
+
+ /* This allows you to change everything on the webpage */
+*{
+    background: maroon;
+
+}
+
+/* thi is a group selectlor */
+/* h1,h2,p {
+    
+} */
+
+/* fonts.google.com
+if you want to look for fonts
+*/
+

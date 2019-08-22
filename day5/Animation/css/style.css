@@ -1,0 +1,36 @@
+.square{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+
+
+    /* this specifies a time */
+    /* transition: step-start 2s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1); */
+
+    /* adds your animation function (button) */
+    animation-name: button;
+    animation-duration: 4s;
+    animation-delay: 0.3s;
+    animation-iteration-count: 5;
+}
+
+/* square becomes circular when hovered over */
+.square:hover{
+    border-radius: 50%;
+}
+
+@keyframes button{
+    0%{
+        background-color: blueviolet;
+        box-shadow: 6px 6px 0 darkgrey;
+    }
+    50%{
+        background-color: aqua;
+        box-shadow: 6px 6px 0 darkslategrey;
+    }
+    100%{
+        background-color: whitesmoke;
+        box-shadow: 6px 6px 0 black;
+    }
+}
